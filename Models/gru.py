@@ -7,14 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1mEvHQksUz8kB0WDpSAY3j5HI7k5Yh4ie
 """
 
-!pip install torchdata
-
-from google.colab import drive
-import os
-drive.mount('/content/drive/')
-
-# Commented out IPython magic to ensure Python compatibility.
-# %cd drive/My\ Drive/NLP Spring 22/Project/
 
 import torch
 from torch import nn

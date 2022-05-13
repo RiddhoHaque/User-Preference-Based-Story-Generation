@@ -7,21 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1ZMO9M8E8s720fh_qFx-fd2qc0_M261Vk
 """
 
-#!pip install transformers
-!pip install transformers[sentencepiece]
-!pip install datasets
 
-!pip install rouge_score
-
-from google.colab import drive
-import os
-drive.mount('/content/drive/')
-
-# Commented out IPython magic to ensure Python compatibility.
-# %cd drive/My\ Drive/NLP Spring 22/Project/
-
-# Commented out IPython magic to ensure Python compatibility.
-# %ls
 
 import torch
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
